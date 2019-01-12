@@ -10,7 +10,7 @@
 
   <ul class="masthead-nav">
     <li class="nav-item">
-      <a class="nav-link{% if page.title == "Home" %} nav-link-active{% endif %}" href="/">Home</a>
+      <a class="nav-link{% if page.path == "/" %} nav-link-active{% endif %}" href="/">Home</a>
     </li>
 
     {%- for node in site.pages -%}
